@@ -1,0 +1,78 @@
+#container {
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-content:center;
+  height: 100vh;
+  
+  
+}
+
+.rgbInputR, .rgbInputG, .rgbInputB, .hexOutput {
+  display: flex;
+  justify-content:center;
+  flex-direction: row;
+  
+  
+}
+
+.r{
+  padding: 0 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.number-R {
+  padding: 0 20px;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  width:20px;
+}
+
+.g{
+  padding: 0 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.number-G {
+  padding: 0 20px;
+  background-color: green;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  width:20px;
+  
+}
+
+.b{
+  padding: 0 10px;
+  font-size: 30px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 5px;
+}
+
+.number-B {
+  padding: 0 20px;
+  background-color: blue;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  width:20px;
+}
+
+.hex {
+  padding: 10px;
+  font-size: 30px;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 5px;
+}
